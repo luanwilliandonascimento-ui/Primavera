@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Primavera</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                Clima<span>&</span>Tema
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cidades.html">
+                            Cidades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="clima.html">
+                            Climas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">
+                            Cadastro
+                        </a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+
+                    <input
+                        class="form-control"
+                        type="search"
+                        placeholder="Pesquisar">
+
+                    <button class="btn btn-primary" type="submit">
+                        Pesquisar
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <section class="hero">
+
+        <div class="container">
+
+            <h1>
+                Descubra novos lugares
+            </h1>
+
+            <p>
+                Explore cidades, climas e lugares incríveis
+                para conhecer em diferentes épocas do ano.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <div id="carouselPrincipal"
+        class="carousel slide"
+        data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+
+            <button type="button"
+                data-bs-target="#carouselPrincipal"
+                data-bs-slide-to="0"
+                class="active">
+            </button>
+
+            <button type="button"
+                data-bs-target="#carouselPrincipal"
+                data-bs-slide-to="1">
+            </button>
+
+            <button type="button"
+                data-bs-target="#carouselPrincipal"
+                data-bs-slide-to="2">
+            </button>
+
+            <button type="button"
+                data-bs-target="#carouselPrincipal"
+                data-bs-slide-to="3">
+            </button>
+
+            <button type="button"
+                data-bs-target="#carouselPrincipal"
+                data-bs-slide-to="4">
+            </button>
+
+        </div>
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./img/BC.jpg" alt="Balneário Camboriú">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/guaruja 1.jpg" alt="Guarujá">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/holambra 1.jpg" alt="Holambra">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/ubatuba 1.webp" alt="Ubatuba">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/campinas 1.avif" alt="Campinas">
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+
+        <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+
+    <section class="estacoes">
+
+        <div class="container">
+
+            <h2>Estações do Ano</h2>
+
+            <p class="subtitulo">
+                Descubra lugares para visitar em cada estação.
+            </p>
+
+
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="estacao-card">
+
+                        <img src="./img/inverno.jpg" alt="Inverno">
+
+                        <div class="estacao-info">
+
+                            <h3>Inverno</h3>
+
+                            <p>
+                                Descubra lugares para aproveitar o frio.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="estacao-card">
+
+                        <img src="./img/outono.jpg" alt="Outono">
+
+                        <div class="estacao-info">
+
+                            <h3>Outono</h3>
+
+                            <p>
+                                Conheça paisagens incríveis.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="estacao-card">
+
+                        <img src="./img/primavera.jpg" alt="Primavera">
+
+                        <div class="estacao-info">
+
+                            <h3>Primavera</h3>
+
+                            <p>
+                                Explore lugares cheios de natureza.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="estacao-card">
+
+                        <img src="./img/veraao.jpg" alt="Verão">
+
+                        <div class="estacao-info">
+
+                            <h3>Verão</h3>
+
+                            <p>
+                                Aproveite praias e dias ensolarados.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="lugares">
+
+        <div class="container">
+
+            <h2>Lugares Favoritos</h2>
+
+            <p class="subtitulo">
+                Confira alguns lugares que você pode conhecer.
+            </p>
+
+
+            <div class="row g-4">
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card">
+
+                        <img src="./img/zoo.jpg"
+                            class="card-img-top"
+                            alt="Zoológico de Americana">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Zoológico de Americana
+                            </h5>
+
+                            <p class="card-text">
+                                Um espaço de lazer, conservação
+                                e educação ambiental localizado
+                                em Americana.
+                            </p>
+
+                            <a href="https://www.google.com/maps/search/?api=1&query=Zoologico+de+Americana"
+                                class="btn btn-primary"
+                                target="_blank">
+                                Veja mais
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card">
+
+                        <img src="./img/tivoli.webp"
+                            class="card-img-top"
+                            alt="Tivoli Shopping">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Tivoli Shopping
+                            </h5>
+
+                            <p class="card-text">
+                                Um importante centro de compras,
+                                lazer e convivência da região.
+                            </p>
+
+                            <a href="https://www.google.com/maps/search/?api=1&query=Tivoli+Shopping+Santa+Barbara+d%27Oeste"
+                                class="btn btn-primary"
+                                target="_blank">
+                                Veja mais
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card">
+
+                        <img src="./img/centro.jpg"
+                            class="card-img-top"
+                            alt="Centro Cívico Municipal">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Centro Cívico Municipal
+                            </h5>
+
+                            <p class="card-text">
+                                Um espaço público de esportes,
+                                lazer e convivência.
+                            </p>
+
+                            <a href="https://www.google.com/maps/search/?api=1&query=Centro+Civico+Municipal+Americana"
+                                class="btn btn-primary"
+                                target="_blank">
+                                Veja mais
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
